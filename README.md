@@ -31,7 +31,7 @@ cd Deep-Q-Capsule-Network
 pip install tensorflow-gpu==1.2 # GPU
 ```
 You can follow the steps given in https://www.tensorflow.org/install/gpu to install the CUDA Toolkit for your GPU. 
-You can use the Anaconda to install tensorflow-gpu to find an appropriate version.
+You can use the Anaconda to install appropriate version of tensorflow-gpu for your gpu.
 
 **Python Game environment**
 ```
