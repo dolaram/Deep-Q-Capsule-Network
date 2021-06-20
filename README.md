@@ -17,23 +17,36 @@ above.
 # Deep Q-Learning
 Deep Q Learning is a branch of Reinforcement Learning that deals with problems using CNN as function approximator, we have implemented Deep Q-Learning for Pong game based application where we have trained the network to play againt a AI opponent. The codes for execution of the alogirthm for both Single Machine as well as distributed implementation for various model configurations has been uploaded on this repository, which is using PYGAME for creating the environment for execution.
 
-## Usage
+## Installation
 
-**Step 1. Clone this repository to local.**
+**Clone this repository to local.**
 ```
-git clone https://github.com/XifengGuo/CapsNet-Keras.git capsnet-keras
-cd capsnet-keras
-git checkout tf2.2 # Only if use Tensorflow>=2.0
+git clone https://github.com/dolaram/Deep-Q-Capsule-Network.git Deep-Q-Capsule-Network
+cd Deep-Q-Capsule-Network
 ```
 
-**Step 2.
-Install  tensorflow-gpu and CUDA Toolkit**
+**Install  tensorflow-gpu and CUDA Toolkit**
 ```
 pip install tensorflow-gpu==1.2 # GPU
 ```
 You can follow the steps given in https://www.tensorflow.org/install/gpu to install the CUDA Toolkit for you GPU. 
 You can use the Ananconda to install tensorflow-gpu to find appropriate version.
 
+**Python Game environment**
+```
+pip install pygame  # https://pypi.org/project/pygame/
+# Installing PLE
+#  https://pygame-learning-environment.readthedocs.io/en/latest/user/home.html#installation
+git clone https://github.com/ntasfi/PyGame-Learning-Environment  
+cd PyGame-Learning-Environment/
+sudo pip install -e .
+```
+
+**opencv-python **
+```
+pip install opencv-python
+# https://pypi.org/project/opencv-python/
+```
 
 
 **Step 3. Train a CapsNet on MNIST**  
