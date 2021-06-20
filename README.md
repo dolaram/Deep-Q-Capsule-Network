@@ -17,4 +17,35 @@ above.
 # Deep Q-Learning
 Deep Q Learning is a branch of Reinforcement Learning that deals with problems using CNN as function approximator, we have implemented Deep Q-Learning for Pong game based application where we have trained the network to play againt a AI opponent. The codes for execution of the alogirthm for both Single Machine as well as distributed implementation for various model configurations has been uploaded on this repository, which is using PYGAME for creating the environment for execution.
 
+## Usage
 
+**Step 1. Clone this repository to local.**
+```
+git clone https://github.com/XifengGuo/CapsNet-Keras.git capsnet-keras
+cd capsnet-keras
+git checkout tf2.2 # Only if use Tensorflow>=2.0
+```
+
+**Step 2.
+Install  tensorflow-gpu and CUDA Toolkit**
+```
+pip install tensorflow-gpu==1.2 # GPU
+```
+You can follow the steps given in https://www.tensorflow.org/install/gpu to install the CUDA Toolkit for you GPU. 
+You can use the Ananconda to install tensorflow-gpu to find appropriate version.
+
+
+
+**Step 3. Train a CapsNet on MNIST**  
+
+Training with default settings:
+```
+python capsulenet.py
+```
+
+More detailed usage run for help:
+```
+python capsulenet.py -h
+```
+
+**Step 4. Test a pre-trained CapsNet model**
