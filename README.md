@@ -52,8 +52,14 @@ pip install opencv-python
 
 **Training Deep-Q Capsule Network(DQCN) for Deep Q learning**  
 
-Training with default settings:
+Training with default settings for the Small Capsule Network Deep Q learning:
 ```
 python main.py
-# Select one of the 3 games for training. You need to give at a sufficiently long time for training the Capsule Network to get good results.
+# Select one of the 3 games for training by editing main.py. You need to give at a sufficiently long time for training the Capsule Network to get good results.
+```
+
+Training for the Big CNN and Capsule Network for Deep Q learning:
+```
+python main4bigcapsnet.py
+# Select CNN or Capsule Network as the Deep Q Network and Select one of the 3 games for training by editing main4bigcapsnet.py. You need to give at a sufficiently long long time for training the Capsule Network to get good results. 
 ```
