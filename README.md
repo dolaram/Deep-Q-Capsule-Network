@@ -57,6 +57,7 @@ Training with default settings for the Small Capsule Network Deep Q learning:
 python main.py
 # Select one of the 3 games for training by editing main.py. You need to give at a sufficiently long time for training the Capsule Network to get good results.
 ```
+**Training Deep-Q Network(DQCN) for Deep Q learning**  
 
 Training for the Big CNN and Capsule Network for Deep Q learning:
 ```
